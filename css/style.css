@@ -1,0 +1,28 @@
+.container {
+  display: block;
+  width: 400px;
+  margin: 100px auto 0;
+}
+
+.success{
+  color: red;
+}
+
+.list-div{
+  display: inline-block;
+  position: absolute;
+  margin-top: 50px;
+}
+
+h3{
+  text-decoration: underline;
+}
+
+.delete{
+  margin-left: 20px;
+}
+
+li{
+  margin-bottom: 15px;
+  font-size: 20px;
+}

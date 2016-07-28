@@ -3,9 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>Todo List</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div class="container">
+
+    <h1>Enter a Task</h1>
+
+    <label for="addDisplay">Add Item</label><br><br>
+      <input id="addDisplay" type="text">
+      <button id="add">Add</button>
+      <div class="success"></div>
+
+    <div class="list-div">
+      <h3>To Do List</h3>
+      <span id="counter"></span></h3>
+        <ul id="todoList"></ul>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
